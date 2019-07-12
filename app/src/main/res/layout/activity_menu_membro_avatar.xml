@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AvatarMenuMembroActivity">
+
+    <TextView
+            android:layout_width="246dp"
+            android:layout_height="31dp"
+            android:text="Escolha um Músculo..."
+            android:textSize="22sp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="82dp"
+            android:id="@+id/textView3"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="540dp"
+            android:src="@drawable/fundo_avatar_frente"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="-4dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="40dp"/>
+
+</android.support.constraint.ConstraintLayout>

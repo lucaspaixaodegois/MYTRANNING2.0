@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MenuMembroActivity"
+        android:orientation="vertical"
+>
+    <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercícios para:"
+            android:textSize="22dp"
+    />
+
+    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="ABDOMINAIS"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/btnAbdominal"
+                android:layout_weight="1"/>
+        <Button
+                android:text="ANTEBRAÇOS"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/btnAntebracos"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    >
+        <Button
+                android:text="BICEPS"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/btnBiceps"
+                android:layout_weight="1"
+        />
+        <Button
+                android:text="COSTAS"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/btnCostas"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    >
+        <Button
+                android:text="PEITO"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/btnPeito"
+                android:layout_weight="1"
+        />
+        <Button
+                android:text="PERNAS"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/btnPernas"
+                android:layout_weight="1"
+        />
+
+
+    </LinearLayout>
+    <Button
+            android:id="@+id/btnCadTreino"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Cadastrar treino"
+            android:layout_width="368dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+    />
+</LinearLayout>

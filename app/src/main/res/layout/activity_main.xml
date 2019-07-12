@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:background="@drawable/fundo_logim"
+>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/login_icon"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+    />
+
+    <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editTextLogin"
+            android:ems="10"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:drawablePadding="25dp"
+            android:hint="Informe seu CPF..."
+            android:paddingTop="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/login_text_icon"
+            android:inputType="text"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:drawablePadding="25dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:hint="Digite sua senha..."
+            android:id="@+id/editTextSenha"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/senha_text_icon"
+
+    />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="40dp"
+    >
+        <Button
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEntrar"
+                android:text="Entrar"
+                android:textSize="18dp"
+                android:textColor="@color/textLoginSenha"
+                android:background="@drawable/buttonshape"
+                android:layout_marginLeft="15dp"
+        />
+
+        <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCadastrar"
+                android:text="Cadastrar"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/buttonshape"
+
+        />
+        <Button
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLimpar"
+                android:text="Limpar"
+                android:textSize="18dp"
+                android:background="@drawable/buttonshape"
+
+        />
+    </LinearLayout>
+
+</LinearLayout>
